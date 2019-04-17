@@ -3,7 +3,7 @@ set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/cmake/ArduinoToolchain.cmake)
 set(CMAKE_CXX_STANDARD 98)
 set(PROJECT_NAME yogurtFacory)
 
-set(${PROJECT_NAME}_BOARD uno)
+set(${PROJECT_NAME}_BOARD nodemcuv2)
 # set(ARDUINO_CPU)
 project(${PROJECT_NAME})
 
